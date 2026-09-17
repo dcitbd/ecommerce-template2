@@ -1,0 +1,12 @@
+# Supabase project configuration
+project_id = "techno-world-bd"
+
+[api]
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+
+[db]
+port = 54322
+
+[studio]
+port = 54323

@@ -1,0 +1,6 @@
+-- 008_sizes.sql
+CREATE TABLE IF NOT EXISTS public.sizes (
+  id VARCHAR(100) PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);

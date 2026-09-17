@@ -1,0 +1,7 @@
+-- 007_colors.sql
+CREATE TABLE IF NOT EXISTS public.colors (
+  id VARCHAR(100) PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  hex_code VARCHAR(20) NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);

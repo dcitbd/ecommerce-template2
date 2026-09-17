@@ -1,0 +1,26 @@
+-- 016_orders.sql
+CREATE TABLE IF NOT EXISTS public.orders (
+  id VARCHAR(100) PRIMARY KEY,
+  order_number VARCHAR(100) UNIQUE NOT NULL,
+  customer_id VARCHAR(100),
+  customer_name VARCHAR(255) NOT NULL,
+  customer_phone VARCHAR(50) NOT NULL,
+  customer_email VARCHAR(255),
+  delivery_address TEXT NOT NULL,
+  delivery_method VARCHAR(100) NOT NULL,
+  delivery_area VARCHAR(100) NOT NULL,
+  delivery_charge NUMERIC(10,2) DEFAULT 0,
+  total_weight_kg NUMERIC(6,3) DEFAULT 0.5,
+  subtotal NUMERIC(12,2) NOT NULL,
+  total_amount NUMERIC(12,2) NOT NULL,
+  payment_method VARCHAR(100) NOT NULL,
+  payment_status VARCHAR(50) DEFAULT 'Unpaid',
+  order_status VARCHAR(50) DEFAULT 'Pending',
+  order_type VARCHAR(50) DEFAULT 'Stock',
+  courier_name VARCHAR(100),
+  courier_tracking_code VARCHAR(100),
+  fraud_score INT DEFAULT 85,
+  notes TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
