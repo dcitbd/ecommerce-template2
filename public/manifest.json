@@ -1,0 +1,15 @@
+{
+  "short_name": "TechnoWorldBD",
+  "name": "Techno World BD - Camera & Pre-Order Wholesale",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1E1B4B",
+  "theme_color": "#4F46E5",
+  "display": "standalone"
+}

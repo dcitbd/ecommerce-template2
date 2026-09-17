@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <rect width="320" height="80" rx="12" fill="#090D16"/>
+  <circle cx="45" cy="40" r="26" fill="#4F46E5"/>
+  <circle cx="45" cy="40" r="18" fill="#D4AF37"/>
+  <circle cx="45" cy="40" r="10" fill="#0F172A"/>
+  <path d="M41 33L53 40L41 47V33Z" fill="#FFFFFF"/>
+  <text x="85" y="44" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="bold" letter-spacing="1">TECHNO WORLD</text>
+  <text x="85" y="62" fill="#D4AF37" font-family="sans-serif" font-size="12" font-weight="600" letter-spacing="2">BANGLADESH • WHOLESALE &amp; RETAIL</text>
+</svg>
