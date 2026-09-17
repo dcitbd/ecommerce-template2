@@ -1,0 +1,13 @@
+/* Admin panel custom styling */
+.admin-card {
+  @apply bg-white rounded-xl border border-slate-200 shadow-sm p-5 transition-all duration-200;
+}
+.admin-card:hover {
+  @apply shadow-md border-indigo-200;
+}
+.admin-table th {
+  @apply px-4 py-3 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider bg-slate-50 border-b border-slate-200;
+}
+.admin-table td {
+  @apply px-4 py-3.5 text-sm text-slate-700 border-b border-slate-100 whitespace-nowrap;
+}
